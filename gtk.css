@@ -1,0 +1,89 @@
+* {
+  opacity: 1;
+}
+
+.xfce4-panel .tasklist .toggle {
+	background-color: rgba(43, 43, 43, 0.3);
+	color: white;
+	opacity: 1;
+	margin-right: 10px;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 15px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+.xfce4-panel .tasklist .toggle:hover{
+	background-color: rgba(43, 43, 43, 0.6);
+	opacity: 1;
+	color: white;
+}
+
+.xfce4-panel .tasklist .toggle:checked{
+	background-color: rgba(43, 43, 43, 0.9);
+  opacity: 1;
+	color: white;
+}
+
+.tasklist image {
+	-gtk-icon-transform: scale(0.8);
+}
+
+#clock-button {
+	color: white;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+#xfce-panel-toggle-button image, #pulseaudio-button image, #xfce4-notification-plugin image {
+	-gtk-icon-transform: scale(0.7);
+}
+
+#xfce-panel-toggle-button image, #pulseaudio-button image, #xfce4-notification-plugin image, #sn-button image {
+	-gtk-icon-shadow: 1px 1px 2px #000000;
+}
+
+#xfce-panel-toggle-button:hover, #pulseaudio-button:hover, #xfce4-notification-plugin:hover, #clock-button:hover, #launcher-arrow:hover, #xfce4-statusnotifier-plugin:hover, #sn-button:hover {
+	border-radius: 5px;
+  background-color: rgba(43, 43, 43, 0.6);
+}
+
+#xfce-panel-toggle-button:checked, #pulseaudio-button:checked, #xfce4-notification-plugin:checked, #clock-button:checked, #launcher-arrow:checked, #xfce4-statusnotifier-plugin:checked, #sn-button:checked {
+	border-radius: 5px;
+  background-color: rgba(43, 43, 43, 0.9);
+}
+
+#clock-button {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#launcher-arrow image {
+	-gtk-icon-transform: scale(0.9);
+}
+
+#whiskermenu-button {
+	border-radius: 50%;
+	-gtk-icon-style: symbolic;
+	-gtk-icon-shadow: 1px 1px 2px #000000;
+}
+
+#whiskermenu-button:hover, #clock-button:hover {
+  background-color: rgba(43, 43, 43, 0.6);
+	-gtk-icon-style: regular;
+}
+
+#whiskermenu-button:checked {
+  background-color: rgba(43, 43, 43, 0.9);
+}
+
+.xfce4-panel {
+	background-color: transparent;
+	border: none;
+}
+
+#sn-button {
+  padding-left: 3px;
+  padding-right: 3px;
+}
