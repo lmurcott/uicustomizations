@@ -1,5 +1,5 @@
 * {
-  opacity: 1;
+  	opacity: 1;
 }
 
 .xfce4-panel .tasklist .toggle {
@@ -23,7 +23,7 @@
 
 .xfce4-panel .tasklist .toggle:checked{
 	background-color: rgba(43, 43, 43, 0.9);
-  opacity: 1;
+  	opacity: 1;
 	color: white;
 }
 
@@ -46,12 +46,12 @@
 
 #xfce-panel-toggle-button:hover, #pulseaudio-button:hover, #xfce4-notification-plugin:hover, #clock-button:hover, #launcher-arrow:hover, #xfce4-statusnotifier-plugin:hover, #sn-button:hover {
 	border-radius: 5px;
-  background-color: rgba(43, 43, 43, 0.6);
+  	background-color: rgba(43, 43, 43, 0.6);
 }
 
 #xfce-panel-toggle-button:checked, #pulseaudio-button:checked, #xfce4-notification-plugin:checked, #clock-button:checked, #launcher-arrow:checked, #xfce4-statusnotifier-plugin:checked, #sn-button:checked {
 	border-radius: 5px;
-  background-color: rgba(43, 43, 43, 0.9);
+  	background-color: rgba(43, 43, 43, 0.9);
 }
 
 #clock-button {
@@ -70,12 +70,12 @@
 }
 
 #whiskermenu-button:hover, #clock-button:hover {
-  background-color: rgba(43, 43, 43, 0.6);
+  	background-color: rgba(43, 43, 43, 0.6);
 	-gtk-icon-style: regular;
 }
 
 #whiskermenu-button:checked {
-  background-color: rgba(43, 43, 43, 0.9);
+  	background-color: rgba(43, 43, 43, 0.9);
 }
 
 .xfce4-panel {
@@ -84,6 +84,6 @@
 }
 
 #sn-button {
-  padding-left: 3px;
-  padding-right: 3px;
+  	padding-left: 3px;
+  	padding-right: 3px;
 }
